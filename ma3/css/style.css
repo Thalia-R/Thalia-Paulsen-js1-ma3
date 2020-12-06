@@ -1,0 +1,39 @@
+.container {
+    margin-left: 70px;
+}
+
+.gameResults {
+    display: flex;
+    flex-wrap: wrap;
+    width: 330px;
+}
+
+.result {
+    margin: 5px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+h3 {
+    font-size: 16px;
+    
+}
+
+.loader {
+    border: 15px solid rgba(16, 126, 120, 0.308);
+    border-top: 15px solid rgb(16, 126, 120);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
